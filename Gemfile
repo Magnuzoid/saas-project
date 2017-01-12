@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
-
+gem 'thor', '0.19.1'
 gem 'devise'
 
 gem 'milia'
@@ -53,3 +53,6 @@ end
 group :production do
   gem 'rails_12factor'
 end
+
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
