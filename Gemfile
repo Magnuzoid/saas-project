@@ -6,13 +6,12 @@ gem 'rails', '4.2.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 gem 'thor', '0.19.1'
+
 gem 'devise'
-
 gem 'milia'
-
 gem 'twitter-bootstrap-rails'
-
 gem 'devise-bootstrap-views'
+gem 'bootstrap-datepicker-rails'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

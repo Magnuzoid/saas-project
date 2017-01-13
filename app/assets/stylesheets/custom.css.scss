@@ -118,3 +118,15 @@
 .no-left-padding {
   padding-left: 0 !important;
 }
+
+
+-table tr td {
+  a.main-link {
+    color: #428bca;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+}
